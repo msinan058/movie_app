@@ -29,6 +29,7 @@ migrate_working_dir/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
 /build/
@@ -43,3 +44,24 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase configuration files
+google-services.json
+firebase_options.dart
+firebase.json
+
+# Environment files
+.env
+.env.development
+.env.production
+
+# API Keys and Secrets
+/lib/core/constants/api_keys.dart
+/lib/core/constants/secrets.dart
+
+# Generated files that might contain sensitive information
+/lib/generated/
+/ios/Runner/GoogleService-Info.plist
+/macos/Runner/GoogleService-Info.plist
+/ios/firebase_app_id_file.json
+/macos/firebase_app_id_file.json
